@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-decoration: none;
+}
+body {
+    background-color: #31353D;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    bottom: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    main {
+      margin: 20px 20px;
+    }
+  }
+
+main .about {
+    margin-top: -10px;
+}
+
+main .about > h1{
+    font-size: 1.5em;
+    color: #3B7BA7;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+main .about-text > p{
+    font-size: 1em;
+    color: #374140;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0px 20px;
+    text-align: justify;
+    
+}
+
+
+main .experience > h2 {
+    font-size: 1.5em;
+    color: #3B7BA7;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+main .experience .experience-text >p {
+    font-size: 1em;
+    color: #374140;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0px 20px;
+    text-align: justify;
+}
+
+main .work > h3 {
+    font-size: 1.5em;
+    color: #3B7BA7;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+main .work .work-experience  ul{
+    font-size: 1em;
+    color: #374140;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0px 20px 0px 40px;
+}
+
+main > a {
+    display: inline-flex;
+    color: #fff;
+    font-size: 1.3em;
+    margin: 10px;
+    background: linear-gradient(to right, #3D45A3, #2D3379);
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+}
